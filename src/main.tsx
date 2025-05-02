@@ -1,7 +1,7 @@
 import { BrowserRouter } from 'react-router-dom'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { CartProvider } from './Context/Cart_/cartProvider'
+import { CartProvider } from './Context/Cart_/cartContext.tsx'
 
 
 import './index.css'
